@@ -5,7 +5,7 @@ Home: http://github.com/bioidiap/bob.io.matlab
 
 Package license: Modified BSD License (3-clause)
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Enable bob.io.base to handle Matlab(R) files
 
