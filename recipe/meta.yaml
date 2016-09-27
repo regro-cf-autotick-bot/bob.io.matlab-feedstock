@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.io.matlab
@@ -7,10 +7,10 @@ package:
 source:
   fn: bob.io.matlab-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.io.matlab/bob.io.matlab-{{ version }}.zip
-  md5: 55829890da0c8c8b30921ef0a9f1b833
+  md5: e744c374d6cfc04bbcfe6f085180dd0d
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -45,7 +45,7 @@ test:
   - nose
 
 about:
-  home: http://github.com/bioidiap/bob.io.matlab
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Enable bob.io.base to handle Matlab(R) files
 
