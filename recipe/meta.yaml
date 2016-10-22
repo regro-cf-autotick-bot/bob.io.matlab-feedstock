@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.0.7" %}
 
 package:
   name: bob.io.matlab
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.io.matlab-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.io.matlab/bob.io.matlab-{{ version }}.zip
-  md5: e744c374d6cfc04bbcfe6f085180dd0d
+  md5: ae93565327b168aad1e681477cc9e1f1
 
 build:
   number: 0
